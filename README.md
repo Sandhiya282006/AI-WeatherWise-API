@@ -1,3 +1,6 @@
+https://drive.google.com/file/d/1r0tQI7jk4uNaBNhlJfq_qAemQiKU9G5K/view?usp=drivesdk
+https://drive.google.com/file/d/1PB4Zpf3vw0VdFWoTr9yBXMQJxB4eQ9GI/view?usp=drivesdk
+
 # AI WeatherWise API
 
 AI WeatherWise API is a RESTful backend application built with **Node.js, Express.js, MongoDB, and Mongoose**. It features secure JWT authentication with password hashing (bcrypt), custom favorite locations tracking, and Generative AI integrations (Google Gemini) to deliver intelligent weather summaries and personalized recommendations based on real-time metrics.
@@ -120,6 +123,3 @@ To test all endpoints:
 1. Import the `postman_collection.json` file located in the project root into your Postman application.
 2. The collection has pre-saved example payloads for registration, login, profile queries, location management, weather search, and AI queries.
 3. The registration and login endpoints are set up with test scripts that capture the JWT token and save it to the collection variable `token` automatically. This allows you to call all subsequent private endpoints without manually copying the token.
-
-https://drive.google.com/file/d/1r0tQI7jk4uNaBNhlJfq_qAemQiKU9G5K/view?usp=drivesdk
-https://drive.google.com/file/d/1PB4Zpf3vw0VdFWoTr9yBXMQJxB4eQ9GI/view?usp=drivesdk
